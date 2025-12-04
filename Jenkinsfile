@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/DEEPTHICHANDRAN/nodejsreact.org/new/main.git'
+                git 'https://github.com/DEEPTHICHANDRAN/nodejsreact.org.git'
             }
         }
 
